@@ -1,0 +1,28 @@
+{
+  "name": "tarojs-plugin-dart-sass",
+  "version": "0.0.1",
+  "description": "将TaroJS默认使用的node-sass换位sass",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "package.json"
+  ],
+  "keywords": [
+    "Taro"
+  ],
+  "author": "XHMM",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@tarojs/service": "^2.2.7",
+    "sass": "^1.26.8"
+  }
+}
