@@ -15,7 +15,6 @@
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
-    "sourceMap": true,
     "baseUrl": ".",
     "skipLibCheck": true
   },

@@ -1,7 +1,7 @@
 {
   "name": "tarojs-plugin-dart-sass",
   "version": "0.0.1",
-  "description": "将TaroJS默认使用的node-sass换位sass",
+  "description": "将TaroJS默认使用的node-sass换为sass",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
